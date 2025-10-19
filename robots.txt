@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aventuramagica.netlify.app/sitemap.xml
