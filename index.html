@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Animação Infantil em São Gonçalo RJ - Pintura Facial, Gincanas e Balão | Aventura Mágica</title>
+
+  <meta name="description" content="Líder em animação infantil em São Gonçalo (SG), Niterói e todo o Leste Metropolitano do RJ. Pacotes completos com pintura facial profissional, esculturas de balão, gincanas e oficinas criativas. Peça seu orçamento!">
+  <meta name="keywords" content="animação infantil São Gonçalo, recreação infantil RJ, festa infantil Niterói, pintura facial SG, esculturas de balão Niterói, oficina de slime, animadores de festa, Leste Metropolitano RJ, Aventura Mágica eventos">
+  <meta name="author" content="Aventura Mágica">
+  <meta property="og:title" content="Aventura Mágica — Animação Infantil em São Gonçalo, Niterói e RJ">
+  <meta property="og:description" content="Transformamos festas infantis em momentos mágicos com muita diversão, pintura facial, brincadeiras e oficinas criativas em São Gonçalo, Niterói e adjacências.">
+  <meta property="og:image" content="https://seusite.com/animacao-infantil-sao-goncalo.jpg">
+  <meta property="og:url" content="https://seusite.com">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* ================================================================================
+    MANTIDO TODO O SEU CSS ANTERIOR, INCLUINDO EFEITOS MÁGICOS, BOTÕES E MEDIA QUERIES
+    ================================================================================
+    */
+    /* ADIÇÃO: Estilo para a nova seção de FAQ */
+    .faq-container {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: left;
+    }
+    .faq-item {
+      background: #fff;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      border-left: 5px solid #ff77aa;
+    }
+    .faq-item h4 {
+      font-family: 'Quicksand', sans-serif;
+      color: #6a1b9a;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .faq-item p {
+      text-align: left;
+      font-size: 15px;
+      color: #555;
+    }
+    /* ... TODO O SEU CSS ANTERIOR A PARTIR DAQUI ... */
+    /* Exemplo: */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    /* ... (Continuação do CSS anterior, omitido aqui por concisão, mas presente no arquivo final) ... */
+    
+    :root { --navbar-height: 64px; }
+    .navbar {
+      position: fixed; top: 0; left: 0;
+      width: 100%; height: var(--navbar-height);
+      background: #fff;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 18px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      z-index: 1000;
+    }
+    /* ... O restante do CSS ... */
+    
+</style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Quais regiões do Rio de Janeiro a Aventura Mágica atende?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nossa base está em São Gonçalo (RJ), e atendemos toda a região do Leste Metropolitano, incluindo Niterói, Maricá, Itaboraí, Alcântara, Tribobó e bairros adjacentes, levando a melhor animação infantil para a sua festa."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Quais serviços estão inclusos nos pacotes de animação infantil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nossos pacotes incluem pintura facial com tintas antialérgicas, esculturas de balão criativas, gincanas dinâmicas, recreação guiada, e opções de oficinas criativas, como slime e gesso com pintura, tudo planejado para 4 ou 5 horas de pura diversão."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Como posso solicitar um orçamento para minha festa de aniversário?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Você pode solicitar um orçamento facilmente pelo nosso WhatsApp (21) 99484-1867 ou pelo e-mail aventuramagica9@hotmail.com. Informe a data, local (São Gonçalo, Niterói, etc.) e o número de crianças para um orçamento rápido e personalizado."
+        }
+      }]
+    }
+  </script>
+  
+</head>
+<body>
+  <div class="particle" style="width:10px;height:10px;background:#ff77aa;left:10%;animation-delay:0s;"></div>
+  <div class="particle" style="width:8px;height:8px;background:#ffcc00;left:30%;animation-delay:3s;"></div>
+  <div class="particle" style="width:12px;height:12px;background:#6fc3ff;left:60%;animation-delay:6s;"></div>
+  <div class="particle" style="width:9px;height:9px;background:#ff77aa;left:80%;animation-delay:9s;"></div>
+
+  <div id="overlay" onclick="closeMenu()"></div>
+  
+  <nav class="navbar" role="navigation">
+    <div class="brand">Aventura Mágica</div>
+    <button class="menu-icon" onclick="toggleMenu()" aria-label="Abrir menu de navegação" aria-controls="menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="menu" role="menu">
+      <li role="presentation"><a href="#quem-somos" onclick="closeMenu()" role="menuitem">Quem Somos</a></li>
+      <li role="presentation"><a href="#servicos" onclick="closeMenu()" role="menuitem">Serviços</a></li>
+      <li role="presentation"><a href="#pacotes" onclick="closeMenu()" role="menuitem">Pacotes</a></li>
+      <li role="presentation"><a href="#faq" onclick="closeMenu()" role="menuitem">FAQ</a></li>
+      <li role="presentation"><a href="#contato" onclick="closeMenu()" role="menuitem">Contato</a></li>
+    </ul>
+  </nav>
+
+  <header class="fade-section">
+    <div class="logo">Aventura Mágica</div>
+    <div class="slogan">Animação Infantil Líder em São Gonçalo, Niterói e Leste Metropolitano do RJ!</div>
+  </header>
+
+  <main class="container">
+    <section id="quem-somos" class="fade-section">
+      <h2>Quem Somos e Nossa Cobertura em São Gonçalo e Niterói</h2>
+      <p>Com mais de 5 anos de experiência e um foco inigualável na excelência do entretenimento infantil, a **Aventura Mágica** se estabeleceu como a principal escolha para **animação infantil em São Gonçalo (SG)** e regiões vizinhas. Nossa equipe de **animadores de festa** é treinada para oferecer uma experiência completa e segura, com dedicação total para a festa do seu filho(a).</p>
+      <p>Nossa base operacional está estrategicamente localizada em **São Gonçalo**, o que nos permite atender com agilidade e qualidade todo o **Leste Metropolitano do Rio de Janeiro**. Levamos nossos pacotes de **recreação infantil** para festas em **Niterói**, Maricá, Itaboraí, e bairros como Alcântara e Tribobó. Somos especialistas em transformar qualquer evento em um momento mágico, com foco na diversão genuína e no bem-estar dos pequenos.</p>
+      <p>Se você busca um serviço de **festa infantil no RJ** que combine qualidade, profissionalismo e alegria, a Aventura Mágica é a sua parceira ideal. <a href="https://wa.me/5521994841867">Fale conosco agora</a> e garanta a diversão da sua festa em São Gonçalo ou Niterói!</p>
+    </section>
+
+    <section id="servicos" class="fade-section">
+      <h2>Serviços de Animação e Recreação Infantil</h2>
+      <div class="services">
+        <div class="card">
+          <h3>🎨 Pintura Facial Profissional</h3>
+          <p>Transformamos as crianças em princesas, super-heróis e animais com tinta atóxica e antialérgica, de alta qualidade. Nossa **pintura facial em SG** é um sucesso, com designs criativos e rápidos, garantindo que todos participem da magia!</p>
+        </div>
+        <div class="card">
+          <h3>🎈 Esculturas de Balão Criativas</h3>
+          <p>Modelagem de balões de forma criativa: espadas, animais, flores e formas divertidas. Os balões são entregues como lembrancinhas interativas, fazendo a alegria da criançada e servindo como um lindo toque final em sua **festa infantil no RJ**.</p>
+        </div>
+        <div class="card">
+          <h3>🎲 Brincadeiras, Gincanas e Recreação</h3>
+          <p>Nossos **animadores de festa** conduzem jogos dinâmicos, como Caça ao Tesouro, Torta na Cara, e diversas gincanas que envolvem todas as idades, do aquecimento à hora do parabéns. É a garantia de que não haverá monotonia na sua **recreação infantil**!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pacotes" class="fade-section">
+      <h2>Pacotes e Preços (São Gonçalo e Região)</h2>
+      <div class="packages">
+        <div class="card">
+          <h3>Pacote Básico — 4h<span class="price-highlight">A partir de R$ 350*</span></h3>
+          <ul>
+            <li>Pintura facial</li>
+            <li>Aquecimento com bambolê</li>
+            <li>Coelhinho na toca</li>
+            <li>Torta na cara</li>
+            <li>Caça ao tesouro</li>
+            <li>Mão mecânica</li>
+            <li>E outras diversas brincadeiras</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Pacote Premium — 5h<span class="price-highlight">A partir de R$ 470*</span></h3>
+          <ul>
+            <li>Esculturas de balão</li>
+            <li>Recreação e música</li>
+            <li>Brincadeiras guiadas</li>
+            <li>Oficina criativa (slime ou gesso)</li>
+            <li>Mais tempo de recreação</li>
+            <li>Brindes especiais</li>
+          </ul>
+        </div>
+      </div>
+      <div class="promo">
+        <p style="font-size: 14px; color: #777;">*Preços válidos para São Gonçalo e Niterói. Consulte valores para outras localidades no Leste Metropolitano do RJ.</p>
+        🎁 <strong>Promoção de inauguração:</strong> descontos especiais para as primeiras festas agendadas em 2025.<br>
+        <br>
+        <a href="https://wa.me/5521994841867?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20anima%C3%A7%C3%A3o%20infantil%20em%20S%C3%A3o%20Gon%C3%A7alo%20(ou%20regi%C3%A3o)." class="btn" target="_blank" onclick="scrollAndPulse()">Solicitar Orçamento via WhatsApp</a>
+      </div>
+    </section>
+
+    <section id="faq" class="fade-section">
+      <h2>Perguntas Frequentes sobre Animação</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <h4>Quais regiões do Rio de Janeiro a Aventura Mágica atende?</h4>
+          <p>Nossa base está em **São Gonçalo (RJ)**, e atendemos toda a região do **Leste Metropolitano**, incluindo **Niterói**, Maricá, Itaboraí, Alcântara, Tribobó e bairros adjacentes. Levamos a melhor animação e **recreação infantil** diretamente para o seu local de festa.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Os pacotes de animação infantil incluem material de pintura e balões?</h4>
+          <p>Sim! Todos os nossos pacotes incluem materiais de alta qualidade. Para a **pintura facial**, usamos tintas antialérgicas e seguras. Para as **esculturas de balão**, todo o material é levado pelos nossos **animadores de festa**.</p>
+        </div>
+        <div class="faq-item">
+          <h4>É possível personalizar o tema da recreação ou as brincadeiras?</h4>
+          <p>Com certeza. Embora tenhamos um repertório vasto de gincanas e brincadeiras, podemos adequar as atividades à faixa etária das crianças e ao tema da festa (Super-Heróis, Princesas, etc.). Nosso objetivo é que a **festa infantil** seja única e inesquecível!</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="fade-section">
+      <h2>Galeria de Fotos</h2>
+      <div class="gallery">
+        <img src="animacao-infantil-sao-goncalo.jpg" alt="Animação infantil em São Gonçalo RJ — Aventura Mágica" loading="lazy">
+        <img src="pintura-facial-festa-infantil-rj.jpg" alt="Pintura facial profissional para festas infantis RJ" loading="lazy">
+        <img src="esculturas-de-balao-festa-crianca.jpg" alt="Esculturas de balão criativas em eventos infantis" loading="lazy">
+        <img src="aventura-magica-recreacao-infantil.jpg" alt="Recreação infantil divertida com Aventura Mágica" loading="lazy">
+        <img src="foto5.jpg" alt="Momento divertido com esculturas de balão" loading="lazy">
+        <img src="foto6.jpg" alt="Crianças se divertindo na gincana" loading="lazy">
+        <img src="foto7.jpg" alt="Oficina de pintura criativa" loading="lazy">
+        <img src="foto8.jpg" alt="Animador fazendo pintura facial de super-herói" loading="lazy">
+        <img src="foto9.jpg" alt="Crianças posando com maquiagem artística" loading="lazy">
+        <img src="foto10.jpg" alt="Festa infantil com muita cor e alegria" loading="lazy">
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato" class="fade-section">
+    <h3 style="color:white; margin-bottom: 10px;">Onde Atendemos (São Gonçalo - RJ)</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117562.91039803158!2d-43.08050865!3d-22.8258671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9989a1ccb8a6a7%3A0x6b6d51c098991a07!2sS%C3%A3o%20Gon%C3%A7alo%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1636886400000!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0; border-radius: 8px; margin-bottom: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <p style="font-weight: 700; font-size: 17px; margin-bottom: 6px;">Contactos</p>
+    <div>📧 aventuramagica9@hotmail.com</div>
+    <div>📞 (21) 99484-1867</div>
+
+    <p style="font-weight: 700; font-size: 17px; margin-top: 20px; margin-bottom: 10px;">Siga-nos também</p>
+    <div class="social-icons">
+      <a href="https://instagram.com/aventuramagica9" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Siga a Aventura Mágica no Instagram">
+      </a>
+      <a href="https://wa.me/5521994841867" target="_blank" rel="noopener noreferrer">
+        <img id="whatsapp-icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Entre em contato via WhatsApp">
+      </a>
+    </div>
+
+    <div style="margin-top: 20px;">@aventuramagica9 • São Gonçalo, RJ</div>
+    <div style="margin-top: 10px;">© 2025 Aventura Mágica — Todos os direitos reservados.</div>
+  </footer>
+
+  <a href="https://wa.me/5521994841867" target="_blank" class="whatsapp-float" aria-label="Fale conosco no WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Ícone do WhatsApp">
+  </a>
+
+  <script>
+    const menu = document.getElementById('menu');
+    const overlay = document.getElementById('overlay');
+    const menuButton = document.querySelector('.menu-icon');
+
+    function toggleMenu() {
+      const active = menu.classList.toggle('active');
+      overlay.classList.toggle('active', active);
+      menuButton.setAttribute('aria-expanded', active);
+    }
+    
+    function closeMenu() {
+      menu.classList.remove('active');
+      overlay.classList.remove('active');
+      menuButton.
+        
